@@ -1,2 +1,0 @@
-# geerah.dev
-# geerah.dev
