@@ -26,7 +26,12 @@
     }
     h1{ margin:0 0 8px; font-size: clamp(28px, 5vw, 44px); letter-spacing: 0.2px; }
     h2{ margin: 32px 0 16px; font-size: clamp(20px, 3.5vw, 28px); color: var(--txt); }
+    h3{ margin: 24px 0 12px; font-size: clamp(16px, 3vw, 20px); color: var(--txt); }
     p{ color: var(--muted); line-height: 1.6; margin: 0 0 16px; font-size: clamp(14px, 2.2vw, 16px); }
+    ul{ color: var(--muted); line-height: 1.6; margin: 0 0 16px; padding-left: 20px; }
+    li{ margin-bottom: 8px; }
+    a{ color: var(--accent); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
     .back-link{
       display:inline-block; margin-bottom:24px; padding:8px 14px; border-radius:10px;
       border:1px solid rgba(255,255,255,0.12);
@@ -47,9 +52,45 @@
     <h1>Bummeln</h1>
 
     <h2>Privacy Policy</h2>
-    <p>Bummeln does not collect, store, or share personal data.</p>
-    <p>Location data is processed locally on your device and is never transmitted to our servers.</p>
-    <p>We do not track users or share data with third parties.</p>
+
+    <h3>Information We Collect</h3>
+
+    <p><strong>1. User Content</strong><br>
+    When you save places in the app, we store the information you provide, including names, descriptions, and geographic coordinates (latitude and longitude). This data is associated with your account and is required to provide app functionality.</p>
+
+    <p><strong>2. Account Information</strong><br>
+    If you create an account, we may store identifiers such as your user ID and email address.</p>
+
+    <p><strong>3. Usage Data (Analytics)</strong><br>
+    We use Firebase Analytics to collect anonymous usage data such as app interactions and feature usage. This helps us improve the app experience. This data is not used for advertising and is not sold to third parties.</p>
+
+    <h3>Location Information</h3>
+
+    <ul>
+      <li>Real-time location processing happens on your device.</li>
+      <li>Saved place coordinates are stored securely in your account to enable core app functionality. We do not track your movements or monitor your real-world activity.</li>
+    </ul>
+
+    <h3>How We Use Information</h3>
+
+    <p>We use collected data solely to:</p>
+
+    <ul>
+      <li>Provide and maintain app functionality</li>
+      <li>Sync your saved places</li>
+      <li>Improve the app experience</li>
+    </ul>
+
+    <p>We do not sell personal data and we do not use your data for advertising or cross-app tracking.</p>
+
+    <h3>Third-Party Services</h3>
+
+    <p>We use Firebase Analytics to understand app performance and usage patterns.</p>
+
+    <h3>Contact</h3>
+
+    <p>If you have any questions about this Privacy Policy, please contact:<br>
+    <a href="mailto:contact@geerah.dev">contact@geerah.dev</a></p>
 
     <div class="footer">© <span id="y"></span> Geerah Dev</div>
   </main>
